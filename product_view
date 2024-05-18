@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Product View</title>
+</header>
+
+<body>
+<p>
+This is Product View. <a href="Index.html"> to back Home </a>
+</p>
+
+</body>
+<html>

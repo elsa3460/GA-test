@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>Cart Page - GA 電子商務範例</title>
+<title>Checkout Page - GA 電子商務範例</title>
 <!-- 以下是 GA 追蹤碼的基本安裝 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=評估編號"></script>
 <script>
@@ -13,8 +13,8 @@ gtag("js", new Date());
 
 gtag("config", "評估編號");
 // 以下和電子商務有關的追蹤程式
-// 追蹤：【兔兔草】產品加入購物車
-gtag("event", "add_to_cart", {
+// 追蹤：開始結帳
+gtag("event", "begin_checkout", {
 	"currency": "TWD",
 	"value": 200,
 	"items":[
@@ -33,6 +33,6 @@ gtag("event", "add_to_cart", {
 </script>
 </head>
 <body>
-	購物車網頁，<a href="checkout-page.html">開始結帳</a>
+	結帳網頁，<a href="thankyou-page.html">完成購買</a>
 </body>
 </html>

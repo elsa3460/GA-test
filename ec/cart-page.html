@@ -14,7 +14,25 @@ gtag("js", new Date());
 gtag("config", "G-43BTPRMJ97");
 // 以下和電子商務有關的追蹤程式
 // 追蹤：【兔兔草】產品加入購物車
-gtag("event", "add_to_cart", {
+//gtag("event", "add_to_cart", {
+//	"currency": "TWD",
+//	"value": 200,
+//	"items":[
+//		{
+//			"item_id": "產品編號 9487", // 產品編號
+//			"item_name": "兔兔草", // 產品名稱
+//			// 以上為必填，以下選填
+//			"item_brand": "A 牌", // 產品品牌
+//			"item_category": "寵物飼料", // 產品分類
+//			"item_variant": "2 公斤裝", // 產品選項
+//			"quantity": 1,
+//			"price": 200
+//		}
+//	]
+//});
+
+
+gtag("event", "add_to_cart", {ecommerce:{
 	"currency": "TWD",
 	"value": 200,
 	"items":[
@@ -29,7 +47,7 @@ gtag("event", "add_to_cart", {
 			"price": 200
 		}
 	]
-});
+}});
 </script>
 </head>
 <body>
